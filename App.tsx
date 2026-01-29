@@ -29,7 +29,6 @@ const App: React.FC = () => {
         <FAQ />
       </main>
       <Footer />
-      <Chatbot />
     </div>
   );
 };
