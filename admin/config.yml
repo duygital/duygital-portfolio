@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "content"
+    label: "Website Content"
+    files:
+      - name: "showreel"
+        label: "Showreel"
+        file: "content/showreel.yml"
+        fields:
+          - { label: "Video Type", name: "video.type", widget: "select", options: ["youtube", "vimeo", "file"] }
+          - { label: "Video ID", name: "video.id", widget: "string" }
+
+      - name: "pricing"
+        label: "Pricing"
+        file: "content/pricing.yml"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
