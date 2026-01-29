@@ -1,0 +1,60 @@
+section_title: Dự án chọn lọc
+
+tabs:
+  short: Short-form
+  long: Long-form
+
+categories:
+  - All
+  - Podcast
+  - Talking head
+  - Vlog
+  - Motion Graphic
+
+items:
+  - id: s1
+    type: SHORT
+    category: Vlog
+    title: Lifestyle Reel
+    description: >
+      Hook mạnh trong 3 giây đầu, nhịp dựng nhanh
+      giúp tăng tỷ lệ giữ chân (Retention rate)
+      cho các thương hiệu cá nhân.
+    tiktokId: "7489803675607567621"
+
+  - id: s2
+    type: SHORT
+    category: Motion Graphic
+    title: Visual Effects Showcase
+    description: >
+      Sử dụng 3D Tracking và Motion Graphics
+      để giải thích các khái niệm phức tạp
+      một cách trực quan.
+    tiktokId: "7545412473956961543"
+
+  - id: s3
+    type: SHORT
+    category: Podcast
+    title: Insightful Clips
+    description: >
+      Cắt gọt những đoạn hội thoại đắt giá,
+      thêm subtitle động, tối ưu xem không cần âm thanh.
+    tiktokId: "7513380013337578759"
+
+  - id: l1
+    type: LONG
+    category: Vlog
+    title: Kẻ Trộm Ánh Sáng
+    youtubeId: KYwbWVE-9Fs
+    description: >
+      Phim ngắn tập trung vào ánh sáng
+      và Color Grading chuyên sâu.
+
+  - id: l2
+    type: LONG
+    category: Talking head
+    title: The Hidden Soul
+    youtubeId: F_ZK0ZFh6po
+    description: >
+      Phim tài liệu với nhịp chậm,
+      kể chuyện bằng hình ảnh.
