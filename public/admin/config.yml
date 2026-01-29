@@ -1,0 +1,20 @@
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "content"
+    label: "Website Content"
+    files:
+      - name: "showreel"
+        label: "Showreel"
+        file: "public/content/showreel.yml"
+        fields:
+          - { label: "Video Type", name: "video_type", widget: "select", options: ["youtube", "vimeo", "file"] }
+          - { label: "Video ID", name: "video_id", widget: "string" }
+
+      - name: "pricing"
+        label: "Pricing"
+        file: "public/content/pricing.yml"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
