@@ -1,17 +1,17 @@
 
 import React from 'react';
-import { Hero } from './components/Hero';
-import { Showreel } from './components/Showreel';
-import { About } from './components/About';
-import { Portfolio } from './components/Portfolio';
-import { WorkInfo } from './components/WorkInfo';
-import { Process } from './components/Process';
-import { Pricing } from './components/Pricing';
-import { Testimonials } from './components/Testimonials';
-import { Contact } from './components/Contact';
-import { FAQ } from './components/FAQ';
-import { Footer } from './components/Footer';
-import { Chatbot } from './components/Chatbot';
+import { Hero } from './components/Hero.tsx';
+import { Showreel } from './components/Showreel.tsx';
+import { About } from './components/About.tsx';
+import { Portfolio } from './components/Portfolio.tsx';
+import { WorkInfo } from './components/WorkInfo.tsx';
+import { Process } from './components/Process.tsx';
+import { Pricing } from './components/Pricing.tsx';
+import { Testimonials } from './components/Testimonials.tsx';
+import { Contact } from './components/Contact.tsx';
+import { FAQ } from './components/FAQ.tsx';
+import { Footer } from './components/Footer.tsx';
+import { Chatbot } from './components/Chatbot.tsx';
 
 const App: React.FC = () => {
   return (
